@@ -16,6 +16,7 @@ a:link { text-decoration: none;
     height: auto;
     flex-direction: column;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .header-outter {
