@@ -1,6 +1,12 @@
 /* text color */
-a:link { text-decoration: none; 
+a:link { 
+    color: #333333;
+    text-decoration: none; 
 }
+a:active {
+    color: #d37065;
+}
+
 .Grey {
     color: #777777;
     font-size: 14px;
@@ -177,13 +183,23 @@ a:link { text-decoration: none;
     margin-top: 24px;
     text-decoration: none;
 }
-.blog-title:hover,.blog-title:visited {
+.blog-title:hover {
     color: #d37065;
     text-decoration: none;
 
 }
-.blog-title a:hover,.blog-title a:visited {
+.blog-title:visited {
+    color: #333333;
+    text-decoration: none;
+
+}
+.blog-title a:hover {
     color: #d37065;
+    text-decoration: none;
+
+}
+.blog-title a:visited {
+    color: #333333;
     text-decoration: none;
 }
 
