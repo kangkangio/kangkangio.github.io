@@ -365,6 +365,7 @@ a {
   color: #485fc7;
   cursor: pointer;
   text-decoration: none;
+  color:inherit; /*新增加*/
 }
 
 a strong {
@@ -372,8 +373,23 @@ a strong {
 }
 
 a:hover {
+  /*新增加color: #363636;*/
+  color: #00b89c;
+}
+
+/*新增加*/
+a:active {
+  color: #e87c00;
+}
+a:link {
   color: #363636;
 }
+a:visited{
+  color: #a8a8a8;
+}
+
+/*新增加结束*/
+
 
 code {
   background-color: whitesmoke;
