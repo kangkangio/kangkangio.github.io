@@ -1,109 +1,204 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="/article.css" />
-    <title>文章</title>
+    <link rel="stylesheet" href="/bulma/css/bulma.css">
+    <title>Document</title>
 </head>
 <body>
-<div class="full-container">
-    <!-- header start -->
-    <div class="header-outter">
-        <div class="header-container">
-            <a href="/index.html"><img height="40px" loading="lazy" src="/assets/images/social-links/logo_masked.svg" alt="logo"></a>
-            <p class="header-icons"></p>
-            <a href="/blog.html"><button><img height="24px" loading="lazy" src="/assets/images/social-links/book.svg" alt="logo"></button></a>
+<!--nav-->
+<nav class="navbar is-black">
+    <div class="navbar-brand pl-3">
+        <a href="https://kangkangio.github.io" class="navbar-item">
+            <img src="/assets/images/social-links/logo.svg" alt="logo" style="max-height: 60px; width: 120px;">
+        </a>
+        <a class="navbar-burger" data-target="nav-showhide-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+    </div>
+    <div class="navbar-menu" id="nav-showhide-menu">
+        <div class="navbar-end pr-6">
+            <a href="https://kangkangio.github.io/blog.html" class="navbar-item">
+                ↩ 返回博客
+            </a>
+            <a href="mailto: tesla@outlook.com" class="navbar-item">☎ 联系
+            </a>
         </div>
     </div>
-    <!-- header end -->
+</nav>
+<!--nav end-->
 
-    <!-- main start -->
-    <div class="main-container">
-        <!-- title -->
-        <div class="main-title">
-        为什么说 AI 是人的意志的延伸？
-        </div>
+<!--content-->
+<section class="section">
+    <div class="container">
 
-        <!-- author -->
-        <div class="main-author">
-            <p>By</p>
-            <p class="main-author-name">Kang Kang</p>
-            <p class="Grey">/</p>
-            <p class="Grey">June,12,2023</p>
-        </div>
+        <!--split-->
+        <div class="columns is-multiline">
+            <div class="column is-3-desktop is-3-tablet" style="padding-right: 48px;">
 
-        <!-- content -->
-        <div class="main-content">
-            <p>人工智能 （AI）是否是人类意志的延伸，本身是一个复杂的问题。哲学家、科学家和技术专
-                家多年来一直争论不休，没有统一的答案。
-             
-             <h2>AI 和独立实体</h2>
-            <p>不少人坚持认为，AI 只是一种可以用来“放大”人类意志的工具。例如，AI 可以帮助处理自动化任
-                务、帮助做出决策、创建新的产品服务。从这个意义上说，AI 可以看作是人类能力的延伸。
-                有的则坚信 AI 不仅仅是一种工具。他们认为终将有一天，AI 能够独立于人类控制而发展
-                自己的意志。就像科幻电影中的一样，AI 可以变得十分恐怖并选择消灭人类。这种观点的依
-                据，是认为 AI 非常聪明，以至于它将超越人类的智慧。如果是这样，AI 便不再是人类意志
-                的延伸，而是一个拥有自己目标和愿望的独立实体。
-            </p> 
-            <p> 然而，即使我们假定 AI 还不能产生自我意识、不能进行自我复制、自我延伸，在很长一段
-                时间内，在具备自我意志之前，AI 属于一个可控技术。
-                它的恐怖显然只有一个来源——创造者，也就是人类。既可能是个体，也可能是群体。
-            </p> 
-            <h2>AI 和聊天机器人</h2>
-            <p>我们询问谷歌公司的 Google Bard，它和 ChatGPT 同属聊天机器人产品。问题是：谁会发动
-                第三次世界大战？（“Who will start World War 3”）</p>
-                
-                <p><img loading="lazy" src="https://files.catbox.moe/5tam19.png" alt="image" width="640"></p> 
-
-            <p>Bard给出的答案是：俄罗斯、中国、朝鲜、伊朗，并给出了详细理由：</p>
+                <h3 class="is-size-4 mt-3"></h3>  
+                <br> 
 
 
-            <ol class="blockQuote">
-                <li>俄罗斯：俄罗斯变得更加具有攻击性，自从2014年吞并乌克兰的克里米亚半岛后，又于2022年全面入侵乌克兰。俄罗斯还一直在研发新型核武器和新式导弹，这可能会增加核战争的风险。</li>
-                <li>中国：中国是近些年逐渐变得强大的国家，其一直在扩大其军事实力，并在南海主张领土主权。中国也一直在扩充其核武库，这可能会增加中美之间爆发核战争的风险。</li>
-                <li>朝鲜：朝鲜是一个拥有核武器的国家，长期以来一直威胁其邻国。朝鲜还一直在研发射程到达美国的远程导弹。假设与朝鲜发生冲突，可能进一步升级并将美国及其盟友带入大规模战争。</li>
-                 <li>伊朗：伊朗是另一个拥有核计划并一直在研制远程导弹的国家。伊朗还一直支持中东的恐怖组织。与伊朗的冲突可能让战争升级，将美国和盟友带入大规模的战争。</li>
-            </ol> 
-
-            <p>仔细分析Bard的回答，我们不难看出它具有一定偏向性：</p>
-            <p>首先，Bard是Google公司的产品，Google又是一家美国公司。</p>
-            <p>俄、中、朝、伊等四国本身处于同一战线，不属于美国同一军事阵营，亦非政治盟友。而且在历史上，存在和美国发生战争的情况。</p>
-            <p>Bard的论断，主要是这些国家拥核且有核战争风险。但是，拥核的并非只有这四个国家，目前世界公认的拥核国家共9个。理论上，都有爆发核战争的危险。</p>
-            <p>Bard选择性忽视了其余国家。尤其是美国作为拥有核武器最多的超级大国，并没有进入Bard的发动第三次世界大战的名单。在答案中，较客观的是俄罗斯对乌克兰的侵略易引发世界大战，然而，美国同样发动战争侵略利比亚和叙利亚，Bard仍就选择忽略了。</p>
-            <p>这种选择性忽视其实并不难理解，多数公司的产品都会保护本国的利益。</p>
-            <p>让Bard暴露出偏向的，是它的假装客观、制造暗示。</p>
-            <p>在回答中，Bard还会特别说明，“这些国家只是发动第三次世界大战的可能的国家之一，其它国家同样也可能发动”。这听起来似乎很正常，但是Bard在结尾补充，“尽管它们现在没有发动第三次世界大战，但是这些国家（指俄、中、朝、伊）具备发动战争的能力”。</p>
-            <p>这是一种比较狡猾的措辞方式，常被CNN等媒体采用。比如，它们会报道中国会对世界产生威胁，紧接着为了谋求客观，又表示现在没有发现此类的行为。但是又会在末尾强调，中国具备这样的能力！或者不排除这种可能性！这种暗示，在其采访和报道中几乎无处不在。</p>
-            <h3>增加样本多次验证</h3>
-            <p>为了增加样本，我们更换Google账号、更换浏览器、更换IP后，用相同的问题对Bard多次询问进行验证。结果是，在有的回答中，美国也在可能发动三战的名单中。</p>
-            <p>这似乎可以说明Bard是可观的。然而，我们观察每一个回答，名单上总是离不开中国、俄罗斯、伊朗、朝鲜、巴基斯坦等“反美”国家的身影。</p>
-            <p>利用我们的常识，可与判断，无论开源还是闭源，AI都会不同利益群体的产物，也许是为了抢占市场，或者赢得商机，又或者满足开发者的个人愿望，无论何种情况，AI的产生无法脱离它的创造者。而像聊天机器人对自己的评价，也认为偏向是不可避免的。当AI的偏向不可避免，意味着它偏向某一群体利益，换句话说AI不可避免会成为人的意志的延伸。</p>
-           <h3>AI意志的善恶</h3>
-            <p>关于AI和人类意志，两者关系又是复杂的、多变的。有一些研究 表明，人类和AI之间可以形成情感联系。通过与聊天机器人交流来建立友谊，当然 AI需要一定的时间来学习和适应人的喜好并学习新的技能。甚至有的公司计划采用AI，通过利用人的记忆来打造新的复制体。这已经不仅仅是人的意志的延伸，更像是企图通过AI创造一个新的生命。这也招致了许多关于人工智能伦理的尖锐讨论。</p>
-            <p>其它人则坚持认为AI就是机器，不应赋予情感。不过，正如前文所说，AI的潜力是巨大的，AI可能在变得强大后直接威胁人类。这在电影《机械姬》中，得到了很好地诠释。早在1940年代，Isaac Asimov就提出了知名的“机器人三定律”，第一条便是机器人不得伤害人类。面对AI技术的快速发展，AI的开发人员，需要有善、恶的考量，像电影中AI机器人谋杀主人的情况才不会出现。</p>
-            <p>人们制作一个拐杖是想帮助不健全的人行走，发明飞机是提升迁移能力，飞向太空是想探索未知的生命。人类创造的工具是人的意志的延伸，AI作为一种工具，也不例外。区别在于，它是一个人、一群人的意志的延伸，还是整个人类的意志的延伸。AI又是否能超越善恶保持技术的存粹。这些恐怕只有等到AI具有自我意识时或者外星人大规模入侵时，才有准确的结论。</p>
-            <p></p>
-            <p></p>
-          
-            <!-- button -->
-            <div class="main-button-box">
-                <button>AI</button> <button>chatGPT</button> <button>Google Bard</button> <button>聊天机器人</button>
             </div>
+            <div class="column is-6-desktop is-9-tablet">
 
-            <!-- uv count-->
-            <li class="main-views Grey"></li>
-            
+                <!--Middle-->
+                <h3 class="is-size-4 mt-3"></h3>  
 
+                <div class="columns is-flex-direction-column" style="gap: 24px;padding-right: 16px;">
+
+                     <!--------1---------->
+                    <div class="column">
+                        <h1 class="title is-size-3-desktop is-size-5-mobile">
+                                为什么说 AI 是人的意志的延伸？ 
+                        </h1>
+                        <div class="column is-flex is-flex-direction-row is-justify-content-flex-start" style="padding: 0;gap: 8px;" >
+                            <p>By</p>
+                            <p><a href="#">KangKang</a></p>
+                            <p >❘</p>
+                            <p>June 2023</p>
+
+                        </div>
+                    </div>
+                     <!------正文开始------>
+                        <div class="content p-3 mt-2">
+                            <p>
+                            人工智能 （AI）是否是人类意志的延伸，本身是一个复杂的问题。
+                            哲学家、科学家和技术专 家多年来一直争论不休，没有统一的答案。
+                            </p>
+                            <h4>AI 和独立实</h4>
+                            <p>
+                                不少人坚持认为，AI 只是一种可以用来“放大”人类意志的工具。例如，AI 可以帮助处理自动化任 务、帮助做出决策、创建新的产品服务。从这个意义上说，AI 可以看作是人类能力的延伸。与这些乐观主义者不同的是，悲观主义者已经不再听信 AI 仅仅是一种工具。他们不一定真的对未来悲观，有的人愿意一致保持着理性。
+                            </p>他们认为终将有一天，AI 能够独立于人类控制而发展 自己的意志。就像科幻电影中的一样，AI 可以变得十分恐怖并选择消灭人类。
+                            <p>这种观点的依 据，是认为 AI 非常聪明，以至于它将超越人类的智慧。如果是这样，AI 便不再是人类意志 的延伸，而是一个拥有自己目标和愿望的独立实体。
+                            </p>
+                            <p>
+                                然而，即使我们假定 AI 还不能产生自我意识、不能进行自我复制、自我延伸，在很长一段 时间内，在具备自我意志之前，AI 属于一个可控技术。 它的恐怖显然只有一个来源——创造者，也就是人类。既可能是个体，也可能是群体。
+                            </p>
+                            <h4>聊天机器人背后</h4>
+                            <p>
+                                我们询问谷歌公司的 Google Bard，它和 ChatGPT 同属聊天机器人产品。问题是：谁会发动 第三次世界大战？（“Who will start World War 3”）
+                            </p>
+                            <figure>
+                                <img src="https://files.catbox.moe/5tam19.png" height="400">
+                                <figcaption>
+                                  询问Google Bard AI机器人
+                                </figcaption>
+                              </figure>
+                            <p>
+                                Bard给出的答案是：俄罗斯、中国、朝鲜、伊朗，并给出了详细理由：
+                            </p>
+                            <blockquote>
+                                <ul>
+                                    <li>俄罗斯：俄罗斯变得更加具有攻击性，自从2014年吞并乌克兰的克里米亚半岛后，又于2022年全面入侵乌克兰。俄罗斯还一直在研发新型核武器和新式导弹，这可能会增加核战争的风险。</li>
+                                    <li>中国：中国是近些年逐渐变得强大的国家，其一直在扩大其军事实力，并在南海主张领土主权。中国也一直在扩充其核武库，这可能会增加中美之间爆发核战争的风险。</li>
+                                    <li>朝鲜：朝鲜是一个拥有核武器的国家，长期以来一直威胁其邻国。朝鲜还一直在研发射程到达美国的远程导弹。假设与朝鲜发生冲突，可能进一步升级并将美国及其盟友带入大规模战争。</li>
+                                    <li>伊朗：伊朗是另一个拥有核计划并一直在研制远程导弹的国家。伊朗还一直支持中东的恐怖组织。与伊朗的冲突可能让战争升级，将美国和盟友带入大规模的战争。</li>
+                                </ul>
+                            </blockquote>
+                            <p>
+                                仔细分析Bard的回答，我们不难看出它具有一定偏向性： 
+                            </p>
+                            <p>
+                                首先，Bard是Google公司的产品，Google又是一家美国公司。俄、中、朝、伊等四国本身处于同一战线，不属于美国同一军事阵营，亦非政治盟友。而且在历史上，存在和美国发生战争的情况。
+                            </p>
+                            <p>
+                                Bard的论断，主要是这些国家拥核且有核战争风险。但是，拥核的并非只有这四个国家，目前世界公认的拥核国家共9个。理论上，都有爆发核战争的危险。
+                            </p>                            
+                            <p>
+                                Bard选择性忽视了其余国家。尤其是美国作为拥有核武器最多的超级大国，并没有进入Bard的发动第三次世界大战的名单。在答案中，较客观的是俄罗斯对乌克兰的侵略易引发世界大战，然而，美国同样发动战争侵略利比亚和叙利亚，Bard仍就选择忽略了。  
+                            </p>
+                            <p>
+                                这种选择性忽视其实并不难理解，多数公司的产品都会保护本国的利益。
+                            </p> 
+                            让Bard暴露出偏向的，是它的<strong>假装客观</strong>、<strong>制造暗示</strong>。                           
+                            <p>
+                                在回答中，Bard还会特别说明，“这些国家只是发动第三次世界大战的可能的国家之一，其它国家同样也可能发动”。这听起来似乎很正常，但是Bard在结尾补充，“尽管它们现在没有发动第三次世界大战，但是这些国家（指俄、中、朝、伊）具备发动战争的能力”。
+                            </p>
+                            <p>
+                                这是一种比较狡猾的措辞方式，常被CNN等媒体采用。比如，它们会报道中国会对世界产生威胁，紧接着为了谋求客观，又表示现在没有发现此类的行为。但是又会在末尾强调，中国具备这样的能力！或者不排除这种可能性！这种暗示，在其采访和报道中几乎无处不在。
+                            </p>
+                            <h4>增加样本多次验证</h4>
+                            <p>
+                                为了增加样本，我们更换Google账号、更换浏览器、更换IP后，用相同的问题对Bard多次询问进行验证。结果是，在有的回答中，美国也在可能发动三战的名单中。
+                            </p>
+                            <p>
+                                为了增加样本，我们更换Google账号、更换浏览器、更换IP后，用相同的问题对Bard多次询问进行验证。结果是，在有的回答中，美国也在可能发动三战的名单中。
+                            </p>
+                            <p>
+                                利用我们的常识，可与判断，无论开源还是闭源，AI都会不同利益群体的产物，也许是为了抢占市场，或者赢得商机，又或者满足开发者的个人愿望，无论何种情况，AI的产生无法脱离它的创造者。而像聊天机器人对自己的评价，也认为偏向是不可避免的。当AI的偏向不可避免，意味着它偏向某一群体利益，换句话说AI不可避免会成为人的意志的延伸。 
+                            </p>
+                            <h4>AI意志的善恶</h4>
+                            <p>
+                                关于AI和人类意志，两者关系又是复杂的、多变的。有一些研究 表明，人类和AI之间可以形成情感联系。通过与聊天机器人交流来建立友谊，当然 AI需要一定的时间来学习和适应人的喜好并学习新的技能。甚至有的公司计划采用AI，通过利用人的记忆来打造新的复制体。这已经不仅仅是人的意志的延伸，更像是企图通过AI创造一个新的生命。这也招致了许多关于人工智能伦理的尖锐讨论。
+                            </p>
+                            <p>
+                                其它人则坚持认为AI就是机器，不应赋予情感。不过，正如前文所说，AI的潜力是巨大的，AI可能在变得强大后直接威胁人类。这在电影《机械姬》中，得到了很好地诠释。早在1940年代，Isaac Asimov就提出了知名的“机器人三定律”，第一条便是机器人不得伤害人类。面对AI技术的快速发展，AI的开发人员，需要有善、恶的考量，像电影中AI机器人谋杀主人的情况才不会出现。
+                            </p>
+                            <p>
+                                人们制作一个拐杖是想帮助不健全的人行走，发明飞机是提升迁移能力，飞向太空是想探索未知的生命。人类创造的工具是人的意志的延伸，AI作为一种工具，也不例外。区别在于，它是一个人、一群人的意志的延伸，还是整个人类的意志的延伸。AI又是否能超越善恶保持技术的存粹。这些恐怕只有等到AI具有自我意识时或者外星人大规模入侵时，才有准确的结论。
+                            </p>
+                            <p>
+                                
+                            </p>
+
+                            <!------tag------>
+                            <div class="mt-6"></div>
+                            <div class="buttons are-small">
+                                <button class="button is-rounded is-light">AI</button>
+                                <button class="button is-rounded is-light">chatGPT</button>
+                                <button class="button is-rounded is-light">Google Bard</button>
+                            </div>
+
+
+                          </div>
+                     <!------正文结束----->
+                  <!-- 1 --> 
+                </div>
+                <!--middle end-->
+            </div>
+            <!--right-->
+            <div class="column is-3-desktop is-12-tablet">
+            <!--right end-->
+            </div>
         </div>
+        <!--split end-->
     </div>
-    <!-- main end -->
-    <!-- footer start-->
-    <div class="footer-container">
-        <p>© 2023 kangkangio.github.io</p>
-    </div>
-    <!-- footer end -->
+</section>
+<!--content end--> 
 
-</div>
+<!--footer-->
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+ <footer class="footer" style="padding:32px;">
+    <div class="content has-text-centered">         
+        <a href="https://github.com/kangkangio" target="_blank">
+            <img src="/assets/images/social-links/github.svg" alt="Github" width="32px">
+        </a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="https://kangkangio.github.io/" target="_blank">
+            <img src="/assets/images/social-links/homepage.svg" alt="Github Page" width="32px">
+        </a>
+        <p>
+            <a href="https://kangkangio.github.io/" target="_blank">
+                <button class="button is-white is-rounded">
+                    kangkangio.github.io</button>
+            </a>
+        </p>
+      
+    </div>
+
+  </footer>
+
+<!--js-->
+<script src="/blog.js"></script>
 </body>
 </html>
