@@ -1582,8 +1582,8 @@ top: 50%;
 /* end */
 
 .buttonMore {
-  background-color: #ffffff;
-  color: #262425;
+  background-color: #0274ff;
+  color: #ffffff;
   padding: 16px 24px;
   text-align: center;
   text-decoration: none;
@@ -1598,9 +1598,10 @@ top: 50%;
   border-radius: 48px;
 }
 .buttonMore:hover {
-  background-color:#0274ff;
+  background-color:#0058c4;
   color: rgb(237, 255, 255) ;
   text-decoration: none;
+  border-color: #0058c4;
 }
 
 .buttonMore > a {
