@@ -1616,3 +1616,18 @@ top: 50%;
 .buttonMore > a:visited {
   text-decoration: none;
 }
+
+/*sup*/
+.sup {
+  font-size: 24px;
+}
+@media (max-width: 800px) {
+  .sup {
+    font-size: 16px;
+  }
+}
+@media (max-width: 600px) {
+  .sup {
+    font-size: 12px;
+  }
+}
