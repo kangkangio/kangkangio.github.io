@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/bulma/css/bulma.css">
+    <link href="/fontawesome/css/fontawesome.css" rel="stylesheet">
+    <link href="/fontawesome/css/solid.css" rel="stylesheet">
+    <link href="/fontawesome/css/regular.css" rel="stylesheet">
+    <link href="/fontawesome/css/brands.css" rel="stylesheet">
 
     <title>Document</title>
 </head>
@@ -19,7 +23,9 @@
 <nav class="navbar is-black">
     <div class="navbar-brand pl-3">
         <a href="https://kangkangio.github.io/blog.html" class="navbar-item">
-            <img src="/assets/images/social-links/logo.svg" alt="logo" style="max-height: 60px; width: 120px;">
+            <img src="/assets/images/social-links/logo.svg" alt="logo" style="max-height: 60px; width: 120px;"> 
+            <span style="font-size:large;">&nbsp;𓆼&nbsp;博客&nbsp;</span>
+            <a href="https://kangkangio.github.io" class="navbar-item">
         </a>
         <a class="navbar-burger" data-target="nav-showhide-menu">
             <span></span>
@@ -30,9 +36,16 @@
     <div class="navbar-menu" id="nav-showhide-menu">
         <div class="navbar-end pr-6">
             <a href="https://kangkangio.github.io" class="navbar-item">
-                ❖ 首页
+                <span class="icon">
+                    <i class="fa-solid fa-house"></i>
+                 </span>
+                <span>主站</span>
             </a>
-            <a href="mailto: tesla@outlook.com" class="navbar-item">✉ 联系
+            <a href="mailto: tesla@outlook.com" class="navbar-item">
+                <span class="icon">
+                    <i class="fa-solid fa-envelope"></i>
+                 </span>
+                <span>联系</span>
             </a>
         </div>
     </div>
@@ -336,22 +349,15 @@
 <br>
  <footer class="footer">
     <div class="content has-text-centered">         
-        <a href="https://github.com/kangkangio" target="_blank">
-            <img src="/assets/images/social-links/github.svg" alt="Github" width="32px">
-        </a>
         &nbsp;&nbsp;
         <a href="https://kangkangio.github.io/" target="_blank">
-            <img src="/assets/images/social-links/homepage.svg" alt="Github Page" width="32px">
-        </a>
-        <p>
-            <a href="https://kangkangio.github.io/" target="_blank">
-                <button class="button is-white is-rounded">
-                    kangkangio.github.io</button>
-            </a>
-        </p>
-      
+            <button class="button is-light">
+                <span class="icon">
+                    <i class="fa-solid fa-house"></i>
+                </span>
+                <span>kangkangio.github.io</span>
+        </a> 
     </div>
-
   </footer>
 
 <!--js-->
