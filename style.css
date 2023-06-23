@@ -461,7 +461,7 @@ main {
   min-block-size: 100vh;
   position: fixed;
   width: 100%;
-  background-color: #ff5e99;
+  background-color: #F23D4C;
   background-image: var(--gradient-brand);
   transition: 450ms var(--easing);
   z-index: 3;
@@ -517,12 +517,12 @@ main {
 
 body.dark .header {
   background-image: linear-gradient(#0000008b, #000000e6),
-    url("assets/images/hero-bg.webp");
+    url("assets/images/bg-dark.gif");
 }
 
 body.light .header {
   background-image: linear-gradient(#ffffffa2, #ffffffe6),
-    url("assets/images/hero-bg-light.webp");
+    url("assets/images/hero-bg-light.webp")
 }
 
 .header-textbox {
@@ -1517,7 +1517,7 @@ top: 50%;
 }
 .AnimatedText .innerAnimatedText {
   display: inline-block;
-  color: #d37065;
+  color: #F23D4C;
   position: relative;
   white-space: nowrap;
   top: 0;
@@ -1583,13 +1583,13 @@ top: 50%;
 
 .buttonMore {
   background-color: #ffffff;
-  color: rgb(54, 54, 54);
-  padding: 16px 32px;
+  color: #262425;
+  padding: 16px 24px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
+  font-size: 14px;
+  margin: 2px 2px;
   transition-duration: 0.4s;
   cursor: pointer;
   border-style: solid;

@@ -12,11 +12,11 @@ const toggleNav = () => {
   document.body.classList.toggle("lock-screen");
 
   if (nav.classList.contains("hidden")) {
-    btnToggleNav.textContent = "menu";
+    btnToggleNav.textContent = "菜单";
   } else {
     // When menu is opened after transition change text respectively
     setTimeout(() => {
-      btnToggleNav.textContent = "close";
+      btnToggleNav.textContent = "关闭";
     }, 475);
   }
 };
