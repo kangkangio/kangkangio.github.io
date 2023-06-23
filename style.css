@@ -967,7 +967,6 @@ body.dark .work-links img {
 .skills-container {
   display: flex;
   flex-direction: row;
-
 }
 @media (max-width: 800px) {
   .skills-container {
@@ -977,15 +976,14 @@ body.dark .work-links img {
 
 .skills-container-sub {
   flex: 50%;
-  padding: 0px 24px;
+  padding: 0px 2px;
 
 }
 
 .skills-imgs {
   display: flex;
   flex-direction: row;
-
-  padding: 16px 24px;
+  padding: 16px 2px;
 }
 
 .skills-img {
@@ -1285,8 +1283,8 @@ input:checked {
 .tools {
   align-self: center;
   width: 128px;
-  font-size: 1.15rem;
-  font-weight: 200;
+  font-size: 1rem;
+  font-weight: normal;
   text-decoration: none;
   text-align: center;
   border-radius: var(--gutter-nano);
@@ -1476,12 +1474,9 @@ http://stackoverflow.com/a/34696029/383904
   border-radius: 8px;
   padding: 16px 24px;
   margin: 4px 2px;
-  text-align: center;
   text-decoration: none;
-  display: inline-block;
   transition-duration: 0.4s;
   cursor: pointer;
-  font-size: 16px;
   background-color: #272727;
   color: rgb(216, 216, 216);
   border: 2px solid #343434;
@@ -1585,3 +1580,38 @@ top: 50%;
     80% { top: -200px; }
 }
 /* end */
+
+.buttonMore {
+  background-color: #ffffff;
+  color: rgb(54, 54, 54);
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #0274ff;
+  border-radius: 48px;
+}
+.buttonMore:hover {
+  background-color:#0274ff;
+  color: rgb(237, 255, 255) ;
+  text-decoration: none;
+}
+
+.buttonMore > a {
+  text-decoration: none;
+}
+.buttonMore > a:hover {
+  text-decoration: none;
+}
+.buttonMore > a:link {
+  text-decoration: none;
+}
+.buttonMore > a:visited {
+  text-decoration: none;
+}
